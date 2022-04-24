@@ -15,4 +15,4 @@ jobs:
           heroku_api_key: ${{secrets.3bc2206d-6bbc-44e7-91d1-d36ae0285919}}
           heroku_app_name: "autotravi" #Must be unique in Heroku
           heroku_email: "cristian.moises@autotravi.com"
-          appdir: "api" # <- This will point to the api folder in your project
+           buildpack: "https://github.com/HashNuke/heroku-buildpack-elixir.git"
